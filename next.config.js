@@ -1,9 +1,10 @@
-const path = require('path')
+const path = require("path");
 
 module.exports = {
-    distDir: 'build',
-    sassOptions: {
-        includePaths: [path.join(__dirname, 'styles')],
-    },
-    trailingSlash: true,
-}
+  distDir: "build",
+  sassOptions: {
+    includePaths: [path.join(__dirname, "styles")],
+  },
+  trailingSlash: true,
+  basePath: "/tratalion",
+};
