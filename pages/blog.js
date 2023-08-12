@@ -1,26 +1,22 @@
-import React, { Component } from 'react';
-import NavbarTwo from '../components/Layouts/NavbarTwo';
-import PageBanner from '../components/Common/PageBanner';
-import BlogGridThree from '../components/Blog/BlogGridThree';
-import Footer from '../components/Layouts/Footer';
+import React, { Component } from "react";
+import PageBanner from "../components/Common/PageBanner";
+import BlogGridThree from "../components/Blog/BlogGridThree";
+import Footer from "../components/Layouts/Footer";
+import CustomNavbar from "../components/Layouts/CustomNavbar";
 
 class Blog extends Component {
-    render() {
-        return (
-            <>
-                <NavbarTwo />
+  render() {
+    return (
+      <>
+        <CustomNavbar />
+        <PageBanner pageTitle="Blog Grid" BGImage="bg-three" />
 
-                <PageBanner 
-                    pageTitle="Blog Grid" 
-                    BGImage="bg-three"
-                />  
+        <BlogGridThree />
 
-                <BlogGridThree />
-                
-                <Footer/>
-            </>
-        );
-    }
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default Blog;

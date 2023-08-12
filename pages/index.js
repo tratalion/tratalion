@@ -1,50 +1,52 @@
-import React, { Component } from 'react';
-import Navbar from '../components/Layouts/Navbar';
-import MainBanner from '../components/DefaultHome/MainBanner';
-import Services from '../components/DefaultHome/Services';
-import About from '../components/DefaultHome/About';
-import OurWorks from '../components/DefaultHome/OurWorks';
-import Feedback from '../components/Common/Feedback';
-import Team from '../components/Common/Team';
-import FunFacts from '../components/Common/FunFacts';
-import LatestNewsSlider from '../components/Common/LatestNewsSlider';
-import CtaArea from '../components/Common/CtaArea';
-import Partner from '../components/Common/Partner';
-import Footer from '../components/Layouts/Footer';
-import WorkProcess from '../components/DefaultHome/WorkProcess';
+import React, { Component } from "react";
+import CustomNavbar from "../components/Layouts/CustomNavbar";
+import MainBanner from "../components/ItAgency/MainBanner";
+import OurServices from "../components/ItAgency/OurServices";
+import ServiceStyleTwo from "../components/ItAgency/ServiceStyleTwo";
+import WhyChooseUs from "../components/ItAgency/WhyChooseUs";
+import FunFactsTwo from "../components/Common/FunFactsTwo";
+import Feedback from "../components/Common/Feedback";
+import PricingStyleThree from "../components/Pricing/PricingStyleThree";
+import TeamStyleTwo from "../components/Common/TeamStyleTwo";
+import LatestNewsSliderTwo from "../components/Common/LatestNewsSliderTwo";
+import Newsletter from "../components/Common/Newsletter";
+import Footer from "../components/Layouts/Footer";
+import Partner from "../components/Common/Partner";
 
 class Index extends Component {
-    render() {
-        return (
-            <>
-                <Navbar />
+  render() {
+    return (
+      <>
+        <CustomNavbar />
 
-                <MainBanner />
+        <MainBanner />
 
-                <Services />
+        <OurServices />
 
-                <About />
+        <ServiceStyleTwo />
 
-                <OurWorks />
+        <WhyChooseUs />
 
-                <WorkProcess />
+        <FunFactsTwo />
 
-                <Feedback />
+        <Partner />
 
-                <Team />
+        <Feedback />
 
-                <FunFacts />
+        <TeamStyleTwo />
 
-                <LatestNewsSlider />
+        <PricingStyleThree />
 
-                <CtaArea />
+        <LatestNewsSliderTwo />
 
-                <Partner />
-                
-                <Footer />
-            </>
-        );
-    }
+        <div className="pb-100">
+          <Newsletter />
+        </div>
+
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default Index;
