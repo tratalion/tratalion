@@ -73,19 +73,19 @@ class CustomNavbar extends Component {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link href="/">
-                      <a className="nav-link">Home</a>
+                      <a className="nav-link">Beranda</a>
                     </Link>
                   </li>
 
                   <li className="nav-item">
                     <Link href="/services">
-                      <a className="nav-link">Services</a>
+                      <a className="nav-link">Layanan</a>
                     </Link>
                   </li>
 
                   <li className="nav-item">
                     <Link href="/about" activeClassName="active">
-                      <a className="nav-link">About us</a>
+                      <a className="nav-link">Tentang Kami</a>
                     </Link>
                   </li>
 
@@ -125,7 +125,7 @@ class CustomNavbar extends Component {
 
                   <li className="nav-item">
                     <Link href="/contact" activeClassName="active">
-                      <a className="nav-link">Contact Us</a>
+                      <a className="nav-link">Kontak</a>
                     </Link>
                   </li>
                 </ul>

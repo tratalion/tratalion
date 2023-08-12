@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import PageBanner from "../components/Common/PageBanner";
-import ServicesStyleOne from "../components/Services/ServicesStyleOne";
 import CtaAreaTwo from "../components/Common/CtaAreaTwo";
 import Footer from "../components/Layouts/Footer";
 import CustomNavbar from "../components/Layouts/CustomNavbar";
+import OurServices from "../components/ItAgency/OurServices";
 
 class Services extends Component {
   render() {
@@ -11,9 +11,9 @@ class Services extends Component {
       <>
         <CustomNavbar />
 
-        <PageBanner pageTitle="Our Services" BGImage="bg-one" />
+        <PageBanner pageTitle="" BGImage="bg-one" />
 
-        <ServicesStyleOne />
+        <OurServices />
 
         <CtaAreaTwo />
 
