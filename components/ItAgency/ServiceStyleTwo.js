@@ -63,7 +63,7 @@ class ServiceStyleTwo extends Component {
               <div className="col-lg-6">
                 <div className="service-right-img">
                   <img
-                    src="/images/services/it-service1.png"
+                    src="./images/services/it-service1.png"
                     alt="Service Image"
                   />
                 </div>
@@ -78,7 +78,7 @@ class ServiceStyleTwo extends Component {
               <div className="col-lg-6">
                 <div className="service-left-img">
                   <img
-                    src="/images/services/it-service2.png"
+                    src="./images/services/it-service2.png"
                     alt="Service Image"
                   />
                 </div>
@@ -201,7 +201,7 @@ class ServiceStyleTwo extends Component {
               <div className="col-lg-6">
                 <div className="service-right-img">
                   <img
-                    src="/images/services/it-service3.png"
+                    src="./images/services/it-service3.png"
                     alt="Service Image"
                   />
                 </div>

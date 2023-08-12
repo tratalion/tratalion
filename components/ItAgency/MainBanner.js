@@ -56,7 +56,7 @@ class MainBanner extends Component {
                   <div className="col-lg-6">
                     <div className="animate-banner-image">
                       <img
-                        src="/images/animated-banner3.jpg"
+                        src="./images/animated-banner3.jpg"
                         alt="Animate image"
                       />
                     </div>

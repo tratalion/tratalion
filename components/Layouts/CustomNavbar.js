@@ -45,7 +45,7 @@ class CustomNavbar extends Component {
               <Link href="/">
                 <a className="navbar-brand">
                   <img
-                    src="/images/logo.png"
+                    src="./images/logo.png"
                     alt="logo tratalion"
                     className="logo"
                     style={{ width: 160 }}
